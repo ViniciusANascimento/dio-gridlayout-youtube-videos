@@ -1,1 +1,13 @@
 @import url(./normalize.css);
+
+.container{
+	height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container button{
+	background-color: transparent;
+	border: none;
+}
